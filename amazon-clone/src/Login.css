@@ -1,0 +1,43 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.login_logo {
+    width: 150px;
+}
+.login_container {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    width: 450px;
+    padding: 30px;
+    /* background-color: aqua; */
+}
+.login_container > h1 {
+    font-weight: 500;
+}
+.login_container > h4 {
+    margin-top: 20px;
+}
+.email_input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 425px;
+}
+.login_container > button {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(255, 204, 0);
+    margin: 15px 0px;
+    border: none;
+}
+.login_container > small {
+    margin-top: 10px;
+    font-size: 18px;
+}
